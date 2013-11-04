@@ -276,6 +276,7 @@
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/camera" name="SlimRoms/hardware_qcom_camera" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
@@ -453,7 +454,6 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />
 
   <!--HTC DLX devices -->
-  
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="gh" revision="cm-10.2" groups="caf" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="gh" revision="cm-10.2" groups="caf" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="gh" revision="cm-10.2" groups="caf" />
@@ -461,5 +461,8 @@
   <project path="device/htc/dlx" name="yun3195/android_device_htc_dlx" remote="gh" revision="slim-431" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="gh" revision="cm-10.2" />
   <project path="vendor/htc/dlx" name="MoKee/android_vendor_htc_dlx" remote="gh" revision="jb-mr2_mkt" />
+  
+  <!--CyanogenMod Power Hal -->
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-10.2" />
 
 </manifest>
