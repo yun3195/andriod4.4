@@ -56,7 +56,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="ls" revision="kitkat" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="sr" revision="kk4.4" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" remote="sr" revision="kk4.4" />
@@ -92,7 +92,7 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
   <project path="external/clang" name="android_external_clang" remote="ls" revision="kitkat" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/crda" name="android_external_crda" remote="cm" revision="cm-10.2" />
+  <project path="external/crda" name="android_external_crda" remote="cm" revision="cm-11.0" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="ls" revision="kitkat" />
@@ -110,7 +110,7 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-10.2" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="cm" revision="cm-11.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" remote="ln" revision="linaro_android_4.4" />
@@ -144,16 +144,16 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-10.2" />
-  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-10.2" />
-  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-10.2" />
+  <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-11.0" />
+  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sr" revision="jb4.3" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="sr" revision="jb4.3" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="sr" revision="kk4.4" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="sr" revision="kk4.4" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
@@ -163,7 +163,7 @@
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" />
-  <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-10.2" />
+  <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-11.0" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
@@ -173,6 +173,7 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" remote="ln" revision="linaro_android_4.4" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="platform/external/llvm" remote="ln" revision="linaro_android_4.4" />
+  <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
@@ -182,6 +183,7 @@
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mp4parser" name="platform/external/mp4parser" />
   <project path="external/mtpd" name="platform/external/mtpd" />
+  <project path="external/naver-fonts" name="platform/external/naver-fonts" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
@@ -197,14 +199,14 @@
   <project path="external/openssh" name="platform/external/openssh" remote="ln" revision="linaro_android_4.4" />
   <project path="external/openssl" name="platform/external/openssl" remote="ln" revision="linaro_android_4.4" />
   <project path="external/oprofile" name="android_external_oprofile" remote="ls" revision="kitkat" />
-  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-10.2" />
+  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-10.2" />
+  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-11.0" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
@@ -238,7 +240,7 @@
   <project path="external/webp" name="android_external_webp" remote="ls" revision="kitkat" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="sr" revision="kk4.4" />
-  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-10.2" />
+  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="sr" revision="kk4.4" />
@@ -256,7 +258,7 @@
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
-  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="jb4.3" />
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="sr" revision="kk4.4" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
@@ -274,75 +276,92 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="ln" revision="linaro_android_4.4" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-10.2" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.2" />
-  <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-10.2" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.2" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.2" />
+  <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="cm" revision="cm-11.0" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-11.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-11.0" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="ls" revision="kitkat" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/display-mdss" name="android_hardware_qcom_display-mdss" remote="ls" revision="kitkat" />  
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="sr" revision="kk4.4" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ls" revision="kitkat" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="ls" revision="kitkat" />
-  <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/media-v4l2" name="android_hardware_qcom_media-v4l2" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-11.0" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="ls" revision="kitkat" />
-  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.2" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
-  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="cm-10.2" />
+  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-11.0" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="ls" revision="kitkat" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
-  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
   <project path="libcore" name="android_libcore" remote="ls" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="jb4.3" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="jb4.3" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="sr" revision="kk4.4" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="sr" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="ls" revision="kitkat" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="packages_apps_Phone" remote="sr" revision="jb4.3" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ls" revision="kitkat" />
-  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" revision="cm-11.0" />
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-10.2" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
+  <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
@@ -360,8 +379,9 @@
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/Liquid" name="android_liquid_wallpapers" remote="ls" revision="kitkat" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" revision="cm-10.2" />
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" revision="cm-11.0" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
@@ -411,7 +431,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.2" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-11.0" />
   <project path="system/core" name="android_system_core" remote="ls" revision="kitkat" />
   <project path="system/extras" name="android_system_extras" remote="ls" revision="kitkat" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -428,19 +448,20 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.2" />
-  <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.2" />
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-10.2" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.2" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-10.2" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-10.2" />
+  <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-11.0" />
+  <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-11.0" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="sr" revision="kk4.4" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-11.0" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="tm" revision="cm-11.0" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="tm" revision="cm-11.0" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="kitkat" />
-  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.2" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-10.2" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-10.2" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-11.0" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-11.0" />
+  <project path="vendor/qcom" name="proprietary_vendor_qcom" remote="sr" revision="kk4.4" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-11.0" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-11.0" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-11.0" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-11.0" />
   
     <!--HTC DLX devices -->
   <project path="device/htc/dlx" name="yun3195/android_device_htc_dlx" remote="gh" revision="slim-431" />
