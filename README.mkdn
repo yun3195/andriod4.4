@@ -10,6 +10,14 @@ To get started with SlimKat, you'll need to get familiar with
 
 To initialize your local repository using the SlimKat trees, use this command:
 
+        mkdir ~/bin
+        
+        PATH=~/bin:$PATH
+        
+        curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+        
+        chmod a+x ~/bin/repo
+
 	repo init -u git://github.com/yun3195/andriod4.4.git -b slim-kk4.4
 
 Then sync up with this command:
